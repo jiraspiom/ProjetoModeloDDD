@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Infraestrutura.Dados", "ProjetoModeloDDD.Infraestrutura.Dados\ProjetoModeloDDD.Infraestrutura.Dados.csproj", "{2E2C189F-2D90-41C3-88AD-3E29EEC91E2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeleDDD.Aplicação", "ProjetoModeleDDD.Aplicação\ProjetoModeleDDD.Aplicação.csproj", "{33346D08-67B3-4F41-AC27-175240CA3AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{2E2C189F-2D90-41C3-88AD-3E29EEC91E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E2C189F-2D90-41C3-88AD-3E29EEC91E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E2C189F-2D90-41C3-88AD-3E29EEC91E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33346D08-67B3-4F41-AC27-175240CA3AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33346D08-67B3-4F41-AC27-175240CA3AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33346D08-67B3-4F41-AC27-175240CA3AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33346D08-67B3-4F41-AC27-175240CA3AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{AD6122B7-2D43-46BE-AB18-53B4272E32FE} = {8BEEEE2D-2121-422D-AF96-BB216687971A}
 		{8FA49C2C-5A4B-4580-8C32-C61A8019C4AE} = {8BEEEE2D-2121-422D-AF96-BB216687971A}
 		{2E2C189F-2D90-41C3-88AD-3E29EEC91E2F} = {AD6122B7-2D43-46BE-AB18-53B4272E32FE}
+		{33346D08-67B3-4F41-AC27-175240CA3AF3} = {D0555206-D0B1-4228-8349-A9844AE6ABF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F3D39B2-A91D-444D-A537-1F78F33A161A}
