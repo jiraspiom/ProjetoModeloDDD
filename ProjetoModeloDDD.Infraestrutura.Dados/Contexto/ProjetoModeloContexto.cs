@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProjetoModeloDDD.Infraestrutura.Dados.Contexto
 {
-    class ProjetoModeloContexto
+    class ProjetoModeloContexto : BdContext
     {
+
     }
 }
