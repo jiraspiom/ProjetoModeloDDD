@@ -48,5 +48,11 @@
     <Folder Include="EntidadeConfig\" />
     <Folder Include="Repositorios\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoModeloDDD.Dominio\ProjetoModeloDDD.Dominio.csproj">
+      <Project>{1d539a0a-6aa3-4f69-8c70-786e9896d616}</Project>
+      <Name>ProjetoModeloDDD.Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
